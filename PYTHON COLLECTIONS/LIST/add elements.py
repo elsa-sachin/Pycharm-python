@@ -16,3 +16,10 @@ lis.insert(4,4)
 
 lis.insert(3,'BIG DATA')
 print(lis)
+
+"""split"""
+"""splits the strings when whitespace comes  """
+""" line=line.split(" ")"""
+#"this is s string"   after using split ,the string is converrted to a list [this is a string]
+
+"""join     " _".join(line) ,it replaces the spaces with -"""
