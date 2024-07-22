@@ -22,7 +22,7 @@ search=int(input("Enter the element to be searched:"))
 low=0
 upper=len(lst)-1
 flag=0
-for i in range(low,upper):
+while(low<=upper):
         mid=(low+upper)//2
         if search >lst[mid]:
             low=mid+1
