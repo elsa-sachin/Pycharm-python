@@ -11,7 +11,7 @@ print(st)
 
 
 """DELETING ONE ELEMENT"""
-st.remove('Python')
+st.remove('Python')    or pop()
 print(st)
 
 """DELETING MULTIPLE ELEMENT"""
