@@ -76,10 +76,27 @@
 
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-n=int(input())
+# n=int(input())
+#
+# lst=tuple(map(int, input().split()))
+#
+# print(hash(lst))
 
-lst=tuple(map(int, input().split()))
 
-print(hash(lst))
+# lst=[1,2,3,4,5,6]
+# del lst[1:5]
+# print(lst)
+
+#
+s='hello world'
+str=s.split(" ")
+for i in str:
+    new=i.capitalize()
+    new="".join(new)
+    print(new)
+
+
+
+
 
 

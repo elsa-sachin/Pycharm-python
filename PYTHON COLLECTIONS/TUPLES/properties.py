@@ -1,0 +1,16 @@
+"""DEFINITION OF TUPLE"""
+
+tup=()
+tup1=tuple()
+
+"""IT SUPPORTS HETEROGENOUS DATA"""
+tup=(10,40,'python')
+print(tup)
+
+"""SUPPORTS DUPLICATE VALUES"""
+
+tup=(12,12)
+print(tup)
+
+"INSERTION ORDER IS  PRESERVED"
+"IMMUTABLE -NOT CHANGEABLE"
