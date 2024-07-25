@@ -6,3 +6,4 @@ for i in pattern:
     else:
         print(f"{i} first recursive character")
         break
+
