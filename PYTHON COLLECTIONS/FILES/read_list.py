@@ -8,3 +8,4 @@ for i in f:
     """rstrip(),lstrip(),arguments are the elements to be removed"""
 print(lis)
 
+

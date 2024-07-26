@@ -7,3 +7,4 @@ for i in pattern:
         print(f"{i} first recursive character")
         break
 
+
