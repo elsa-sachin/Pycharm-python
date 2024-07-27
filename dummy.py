@@ -76,10 +76,29 @@
 
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-n=int(input())
+# n=int(input())
+#
+# lst=tuple(map(int, input().split()))
+#
+# print(hash(lst))
 
-lst=tuple(map(int, input().split()))
 
-print(hash(lst))
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from itertools import groupby
+
+# Read input
+input_string = input().strip()
+
+# Group consecutive characters
+groups = groupby(input_string)
+print(groups)
+result=' '.join(f"({list(group)},{key}" for key ,group in groups)
+
+
+# Create the result in the desired format
+# result = ' '.join(f'({len(list(group))}, {key})' for key, group in groups)
+#
+# # Print the result
+# print(result)
 
 
