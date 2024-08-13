@@ -22,3 +22,26 @@ elif(num3 >num1 and num3>num2):
         print(f"{num2} is the second largest")
 else:
     print("Equal")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
