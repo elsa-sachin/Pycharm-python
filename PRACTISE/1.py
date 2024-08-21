@@ -4,6 +4,7 @@ for i in range(len(w)):
     if i==0:
         if ('a'<=w[i]<='z') or ('A'<=w[i]<='Z') or (w[i]=='_') :
             flag=1
+
         else:
             print("not valid")
             break

@@ -13,3 +13,18 @@ for i in line.split():
 print(dic)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

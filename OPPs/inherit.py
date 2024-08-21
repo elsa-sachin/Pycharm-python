@@ -5,8 +5,6 @@ class Personal_data:
         self.lname=lname
         self.age=age
 
-
-
 class Professional_data(Personal_data):
     def data1(self,prof,dept,salary,loc):
         self.prof=prof
